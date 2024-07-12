@@ -57,6 +57,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 0 30px;
 }
 .all-shop {
   text-align: center;
@@ -76,7 +77,7 @@ nav {
 }
 .products-description {
   width: 350px;
-  height: 270px;
+  height: auto;
   border: 2px solid blueviolet;
   background-color: antiquewhite;
   padding: 20px;
@@ -158,5 +159,8 @@ footer {
   .navbar ul li {
     display: flex;
     flex-wrap: wrap;
+  }
+  .navbar ul li a {
+    font-size: 14px;
   }
 }
